@@ -55,7 +55,7 @@ export function Calculator(){
                 <Logo/>
                 <Paragraph marginBottom="2rem">Save your time with our calculator</Paragraph>
 
-                <Input type="number" placeholder="Bill" value={billValue} onChange={(e) => { setBillValue(e.target.value)}}/>
+                <Input type="number" placeholder="Bill ($)" value={billValue} onChange={(e) => { setBillValue(e.target.value)}}/>
                 <div>
                 <Input width="50%" borderRadius="3.5rem 0 0rem 3.5rem"  borderRight="0" type="number" placeholder="Tip (%)" value={tipValue} onChange={(e) => { setTipValue(e.target.value)}}/>
                 <Input width="50%" borderRadius="0rem 3.5rem 3.5rem 0rem" type="number" placeholder="Tax (%)" value={taxValue} onChange={(e) => { setTaxValue(e.target.value)}}/>
