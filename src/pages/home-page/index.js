@@ -1,27 +1,33 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Container } from '../../components/Container';
+import { Content } from '../../components/Content';
+import { Logo } from '../../components/Logo';
+import { Paragraph } from '../../components/Paragraph';
+import { LinkButton } from '../../components/LinkButton';
+import { NavigationButtons } from '../../components/NavigationButtons';
+import { NavigationButton } from "../../components/NavigationButton";
 
-const Container = styled.div`
+const InvoiceBg = styled.div `
     width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: clamp(23.6rem, 20vh, 44rem);
+    background: url("images/invoice-bg.svg") no-repeat center center;
+    background-size: contain;
 `
-
-const AppHome = styled.div`
-    width: clamp(28rem, 30vw, 60rem);
-    min-height: 100vh;
-    background-color: black;
-
-`
-
-
 
 export function Home(){
     return (
         <Container>
-            <AppHome />
+            <Content>
+                <Logo/>
+                <InvoiceBg/>
+                <Paragraph>Calculate your purchase total with tip and tax included</Paragraph>
+                <LinkButton to="/calculator" color="white" textTransform="uppercase">Next</LinkButton>
+                <NavigationButtons>
+                    <NavigationButton to="/" active/>
+                    <NavigationButton to="/calculator" />
+                </NavigationButtons>
+            </Content>
         </Container>
     )
 }
