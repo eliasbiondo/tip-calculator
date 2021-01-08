@@ -1,0 +1,21 @@
+:root {
+    font-size: 62.5%;
+    font-family: 'Cabin', sans-serif;
+    --primary: #FFBE2E;
+    --secondary: #FFEECC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
