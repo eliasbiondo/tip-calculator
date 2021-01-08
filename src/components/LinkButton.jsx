@@ -13,10 +13,10 @@ export const LinkButton = styled(Link)`
     line-height: 3rem;
     color: ${props => props.color || '#000'};
     text-transform: ${props => props.textTransform || 'none'};
-    background: url('/images/next-arrow.svg') no-repeat #FFBE2E 95% center; 
+    background: ${props => props.orientation == 'next' ? "url('/images/next-arrow.svg')" : "url('/images/back-arrow.svg')"}  no-repeat #FFBE2E ${props => props.orientation == 'next' ? "95%" : "5%"} center; 
     border-radius: 3.5rem;
 
     &:hover {
-        background: url('/images/next-arrow.svg') no-repeat #e9ad2b 95% center; 
+        background: ${props => props.orientation == 'next' ? "url('/images/next-arrow.svg') no-repeat #e9ad2b 95% center" : "url('/images/back-arrow.svg') no-repeat #e9ad2b 5% center"}; 
     }
 `

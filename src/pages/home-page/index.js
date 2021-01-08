@@ -22,7 +22,7 @@ export function Home(){
                 <Logo/>
                 <InvoiceBg/>
                 <Paragraph>Calculate your purchase total with tip and tax included</Paragraph>
-                <LinkButton to="/calculator" color="white" textTransform="uppercase">Next</LinkButton>
+                <LinkButton to="/calculator" color="white" textTransform="uppercase" orientation="next">Next</LinkButton>
                 <NavigationButtons>
                     <NavigationButton to="/" active/>
                     <NavigationButton to="/calculator" />
