@@ -45,7 +45,8 @@ export function Calculator(){
     const tip = parseFloat(billValue*(tipValue/100));
     const tipPerPerson = parseFloat(tip / numberOfPeople);
     const tax = parseFloat(billValue*(taxValue/100));
-    const total = parseFloat(`${bill + tip + tax}`)
+    
+    const total = parseFloat(`${bill + tip + (tax || 0)}`)
     const totalPerPerson = parseFloat(total / numberOfPeople);
 
     return (
@@ -70,7 +71,7 @@ export function Calculator(){
                             }
                         </Calc>
                         <Calc textAlign="right">
-                            <h1>Total: ${total.toFixed(2)}</h1>
+                            <h1>Total: ${total}</h1>
 
                             {numberOfPeople > 1 && 
                                 <p>Total per person: <br/> ${totalPerPerson.toFixed(2)}</p>
