@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# ![tip calculator logo](https://i.ibb.co/NSZGsH5/Logo-1.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![tip calculator pages on laptop and smartphone mockups](https://i.ibb.co/6Rcs89B/tip-calculator-mockup.png)
 
-## Available Scripts
+<b> Tip calculator </b> is an open source react web app that allow the user to calculate their purchase total with tip and tax included easely! You can test it [clicking here](https://elias-tip-calculator.herokuapp.com/) or open the latest deployed version on [https://elias-tip-calculator.herokuapp.com/](https://meajuda-ai.herokuapp.com/). 
 
-In the project directory, you can run:
+<b>Why?</b> I've decided to create this app because every time I was going to a restaurant or cafeteria I wasted time calculating the total with tip and tax included. My friends and I always had to calculate our bill total manually. Now, we don't need to do that any more, we just put the entries and get the result. In addition, I wanted to practice my React.js knowledges =)
 
-### `npm start`
+## ✨ Contributing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are  **greatly appreciated**.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-### `npm test`
+## 🚀  Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ This project was developed with the following technologies:
+ 
+- [React – A JavaScript library for building user interfaces (reactjs.org)](https://reactjs.org/)
+-   [Styled Components - A react library to use component-level styles](https://styled-components.com/) 
+- [React Router: Declarative Routing for React.js](https://reactrouter.com/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌  Layout
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can see this website layout  [clicking here](https://www.figma.com/file/nCEABtCC8i7C2xOyBfmaZ4/Untitled?node-id=0%3A1). You'll need a  [Figma](https://www.figma.com/)  account.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⏳  Pending Improvements
 
-### `npm run eject`
+-   Preloading screen
+-   Animations
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🏡 License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Distributed under the MIT License. See  `LICENSE`  for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## <img style="-webkit-user-select: none;margin: auto;" src="https://images.emojiterra.com/google/android-11/512px/1f1e7-1f1f7.png" width="20"> Collaborators 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/eliasbiondo">
+        <img src="https://avatars3.githubusercontent.com/u/64558682?v=4" width="150px;" alt="Elias Biondo profile image"/><br>
+        <sub>
+          <b>Elias Biondo</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📬 Contact me
+Elias Biondo - [contato@eliasbiondo.com](mailto:eliasbiondo@eliasbiondo.com)
 
-## Learn More
+## 💬 Any suggestions?
+Feel free to suggest new features or make your own changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+___
+Coded with :heart: by [Elias Biondo](https://github.com/eliasbiondo)
