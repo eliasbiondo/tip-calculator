@@ -2,7 +2,7 @@
 
 ![tip calculator pages on laptop and smartphone mockups](https://i.ibb.co/6Rcs89B/tip-calculator-mockup.png)
 
-<b> Tip calculator </b> is an open source react web app that allow the user to calculate their purchase total with tip and tax included easely! You can test it [clicking here](https://elias-tip-calculator.herokuapp.com/) or open the lastest deployed version on [https://elias-tip-calculator.herokuapp.com/](https://meajuda-ai.herokuapp.com/). 
+<b> Tip calculator </b> is an open source react web app that allow the user to calculate their purchase total with tip and tax included easely! You can test it [clicking here](https://elias-tip-calculator.herokuapp.com/) or open the lastest deployed version on [https://elias-tip-calculator.herokuapp.com/](https://elias-tip-calculator.herokuapp.com/). 
 
 <b>Why?</b> I've decided to create this app because every time I was going to a restaurant or cafeteria I wasted time calculating the total with tip and tax included. My friends and I always had to calculate our bill total manually. Now, we don't need to do that any more, we just put the entries and get the result. In addition, I wanted to practice my React.js knowledges =)
 
