@@ -43,11 +43,19 @@ Distributed under the MIT License. See  `LICENSE`  for more information.
   <tr>
     <td align="center">
       <a href="https://github.com/eliasbiondo">
-        <img src="https://avatars3.githubusercontent.com/u/64558682?v=4" width="150px;" alt="Elias Biondo profile image"/><br>
+        <img src="https://avatars3.githubusercontent.com/u/64558682?v=4" width="100px;" alt="Elias Biondo profile image"/><br>
         <sub>
           <b>Elias Biondo</b>
         </sub>
       </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/viniciusdeliz">
+        <img src="https://avatars3.githubusercontent.com/u/5748616?s=460&u=e51ad050db7a11aea627804725cef43697eed3d0&v=4" width="100px;" alt="Vinicius de Liz profile image"/><br>
+        <sub>
+          <b>Vinicius de Liz</b>
+        </sub>
+      </a><br>
     </td>
   </tr>
 </table>
