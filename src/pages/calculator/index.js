@@ -71,7 +71,7 @@ export function Calculator(){
                             }
                         </Calc>
                         <Calc textAlign="right">
-                            <h1>Total: ${total}</h1>
+                            <h1>Total: ${total.toFixed(2)}</h1>
 
                             {numberOfPeople > 1 && 
                                 <p>Total per person: <br/> ${totalPerPerson.toFixed(2)}</p>
